@@ -36,7 +36,7 @@ const PRODUCTS = [
   {id:"dualtron-thunder-3",brand:"Dualtron",name:"Dualtron Thunder 3 2026",price:2550,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:"images/dadd4eba-c57a-4847-a3b1-4f0d37e58fc0.jpeg"},
   {id:"dualtron-x-limited",brand:"Dualtron",name:"Dualtron X Limited 2026",price:2700,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"EXTRÊME",image:"images/db48b26f-e90e-4600-a8e8-5045bfdb204d.jpeg"},
   {id:"dualtron-storm-limited",brand:"Dualtron",name:"Dualtron New Storm Limited",price:null,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"LIMITED",image:"images/e1ee387f-3519-4477-8bb6-54e8a06267b6.jpeg"},
-  {id:"dualtron-sonic-alien",brand:"Dualtron",name:"Dualtron Sonic Alien",price:null,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:""},
+  {id:"dualtron-sonic-alien",brand:"Dualtron",name:"Dualtron Sonic Alien",price:null,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:"images/8f9d1f56-5f1c-4a0b-8681-f0f10bcdafdf.jpeg"},
 
   // KUKIRIN
   {id:"kukirin-a1",brand:"KuKirin",name:"KuKirin A1",price:419,power:"800 W",battery:"48 V, 13 Ah",range:"Jusqu'à 45 km",badge:"VILLE",image:"images/kukirin-a1.jpg"},
