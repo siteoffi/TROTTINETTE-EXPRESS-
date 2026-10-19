@@ -23,7 +23,7 @@ const PRODUCTS = [
   {id:"ausom-dt2-pro",brand:"AUSOM",name:"Ausom DT2 Pro",price:899,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"TOUT-TERRAIN",image:"images/b8e76865-6e82-4530-8670-d36a800c6f21.jpeg"},
   {id:"ausom-l2-max-dual",brand:"AUSOM",name:"Ausom L2 Max Dual",price:749,power:"Double moteur",battery:"Selon version",range:"Selon version",badge:"DOUBLE MOTEUR",image:"images/d5d3fcfe-95b9-471d-9d67-8a67e3448251.jpeg"},
   {id:"ausom-l1-abe",brand:"AUSOM",name:"Ausom L1 ABE",price:549,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"VERSION ABE",image:"images/0a19faae-3cc1-4c6f-9eab-669023048836.jpeg"},
-  {id:"ausom-f1-max",brand:"AUSOM",name:"Ausom F1 Max",price:1299,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:""},
+  {id:"ausom-f1-max",brand:"AUSOM",name:"Ausom F1 Max",price:1299,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:"images/6304a642-5d5c-4bdf-b351-6614e52c1b87.jpeg"},
 
   // DUALTRON
   {id:"dualtron-aminia",brand:"Dualtron",name:"Dualtron Aminia 2026",price:749,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"COMPACTE",image:"images/dualtron-aminia.jpg"},
