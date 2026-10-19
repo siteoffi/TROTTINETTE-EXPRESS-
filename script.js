@@ -28,7 +28,7 @@ const PRODUCTS = [
   // DUALTRON
   {id:"dualtron-aminia",brand:"Dualtron",name:"Dualtron Aminia 2026",price:649,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"COMPACTE",image:"images/8f612cdc-8269-44c5-a906-5e76daa446ad.jpeg"},
   {id:"dualtron-togo",brand:"Dualtron",name:"Dualtron Togo",price:499,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"VILLE",image:"images/83060be5-81c2-4dc5-a8aa-dca743a11c15.jpeg"},
-  {id:"dualtron-pop",brand:"Dualtron",name:"Dualtron POP",price:799,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"",image:"images/dualtron-pop.jpg"},
+  {id:"dualtron-pop",brand:"Dualtron",name:"Dualtron POP",price:699,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"",image:"images/914408d7-9522-4274-a1ab-f97a5b9ebcb5.jpeg"},
   {id:"dualtron-victor",brand:"Dualtron",name:"Dualtron Victor 2026",price:1550,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"SPORT",image:"images/dualtron-victor.jpg"},
   {id:"dualtron-victor-luxury-plus",brand:"Dualtron",name:"Dualtron Victor Luxury PLUS 2026",price:1649,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"LUXURY",image:"images/dualtron-victor-luxury-plus.jpg"},
   {id:"dualtron-victor-luxury",brand:"Dualtron",name:"Dualtron Victor Luxury 2026",price:1749,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"LUXURY",image:"images/dualtron-victor-luxury.jpg"},
