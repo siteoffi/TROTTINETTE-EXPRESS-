@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <title>Trottinettes Express | Boutique</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topbar">⚡ TROTTINETTES EXPRESS — MOBILITÉ ÉLECTRIQUE</div>
+
+  <header class="header">
+    <a class="logo" href="#accueil">⚡ TROTTINETTES <b>EXPRESS</b></a>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#catalogue">Boutique</a>
+      <a href="#marques">Marques</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-button" id="open-cart" type="button">🛒 Panier <span id="cart-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div>
+        <span class="eyebrow">TROUVE TON MODÈLE</span>
+        <h1>CHANGE DE<br><span>DIMENSION.</span></h1>
+        <p>Découvre une sélection de trottinettes AUSOM, Dualtron et KuKirin. Compare les modèles et prépare ta commande.</p>
+        <a class="primary-button" href="#catalogue">DÉCOUVRIR LA BOUTIQUE ↗</a>
+        <p class="hero-note">✓ 3 marques · ✓ Catalogue filtrable · ✓ Commande WhatsApp ou e-mail</p>
+      </div>
+      <div class="hero-picture">
+        <img src="images/banniere.jpg" alt="Trottinette électrique"
+          onerror="this.onerror=null;this.src='https://placehold.co/900x600/202020/f5d500?text=TROTTINETTES+EXPRESS'">
+      </div>
+    </section>
+
+    <section class="section" id="marques">
+      <span class="eyebrow">NOS UNIVERS</span>
+      <h2>CHOISIS TA <span>MARQUE.</span></h2>
+      <div class="brand-cards">
+        <button type="button" class="brand-card" data-brand-button="AUSOM"><b>AUSOM</b><span>Voir les modèles ↗</span></button>
+        <button type="button" class="brand-card" data-brand-button="Dualtron"><b>DUALTRON</b><span>Voir les modèles ↗</span></button>
+        <button type="button" class="brand-card" data-brand-button="KuKirin"><b>KUKIRIN</b><span>Voir les modèles ↗</span></button>
+      </div>
+    </section>
+
+    <section class="section" id="catalogue">
+      <span class="eyebrow">LA SÉLECTION</span>
+      <h2>LA BOUTIQUE <span>ÉLECTRIQUE.</span></h2>
+      <p class="muted">Les prix sont indicatifs et peuvent varier selon la version et le vendeur.</p>
+
+      <div class="brand-filters">
+        <button class="brand-filter active" type="button" data-brand="Tous">TOUS LES MODÈLES</button>
+        <button class="brand-filter" type="button" data-brand="AUSOM">AUSOM</button>
+        <button class="brand-filter" type="button" data-brand="Dualtron">DUALTRON</button>
+        <button class="brand-filter" type="button" data-brand="KuKirin">KUKIRIN</button>
+      </div>
+
+      <div class="filters">
+        <input id="search-input" type="search" placeholder="Rechercher un modèle..." aria-label="Rechercher un modèle">
+        <select id="sort-select" aria-label="Trier les produits">
+          <option value="default">Tri recommandé</option>
+          <option value="price-asc">Prix croissant</option>
+          <option value="price-desc">Prix décroissant</option>
+          <option value="name">Nom A à Z</option>
+        </select>
+      </div>
+
+      <p id="product-total" class="muted"></p>
+      <div class="product-grid" id="product-grid"></div>
+      <p id="no-results" class="no-results" hidden>Aucun modèle trouvé.</p>
+
+      <p class="disclaimer">Prix de référence relevés dans des catalogues en ligne, non garantis comme prix universels officiels. Les modèles à prix « à confirmer » doivent être vérifiés auprès du vendeur. Les vitesses et autonomies annoncées dépendent des conditions d'utilisation. Vérifie les règles légales applicables dans ton pays.</p>
+    </section>
+
+    <section class="promo">
+      <div><span class="eyebrow">BESOIN D'UN CONSEIL ?</span><h2>ON T'AIDE À CHOISIR.</h2><p>Contacte-nous pour confirmer un prix ou une disponibilité.</p></div>
+      <a class="primary-button" href="#contact">NOUS CONTACTER ↗</a>
+    </section>
+
+    <section class="section contact" id="contact">
+      <span class="eyebrow">RESTONS EN CONTACT</span>
+      <h2>PARLONS DE <span>TON PROJET.</span></h2>
+      <p class="muted">Pour les commandes et les renseignements.</p>
+      <div class="contact-actions">
+        <a class="contact-card whatsapp" href="https://wa.me/33688489721" target="_blank" rel="noopener">
+          <span>💬</span><div><b>WhatsApp</b><small>+33 6 88 48 97 21</small></div><strong>↗</strong>
+        </a>
+        <a class="contact-card" href="mailto:achattrottinette@gmail.com">
+          <span>✉️</span><div><b>E-mail</b><small>achattrottinette@gmail.com</small></div><strong>↗</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer><b>⚡ TROTTINETTES EXPRESS</b><span>© <span id="year"></span></span><a href="#accueil">Retour en haut ↑</a></footer>
+
+  <div class="cart-overlay" id="cart-overlay" hidden>
+    <section class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+      <div class="cart-heading"><h2 id="cart-title">Mon panier 🛒</h2><button id="close-cart" class="close-button" type="button" aria-label="Fermer">✕</button></div>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-bottom">
+        <div class="cart-total"><span>Total indicatif</span><b id="cart-total">0 €</b></div>
+        <p class="muted">Le prix final, la disponibilité et la livraison restent à confirmer.</p>
+        <button id="checkout-whatsapp" class="primary-button full-button" type="button">COMMANDER PAR WHATSAPP</button>
+        <button id="checkout-email" class="secondary-button full-button" type="button">COMMANDER PAR E-MAIL</button>
+      </div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
