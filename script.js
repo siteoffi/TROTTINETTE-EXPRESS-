@@ -33,8 +33,8 @@ const PRODUCTS = [
   {id:"dualtron-victor-luxury-plus",brand:"Dualtron",name:"Dualtron Victor Luxury PLUS 2026",price:1500,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"LUXURY",image:"images/acef500d-22e6-485b-b7a4-ef58cde74734.jpeg"},
   {id:"dualtron-victor-luxury",brand:"Dualtron",name:"Dualtron Victor Luxury 2026",price:1600,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"LUXURY",image:"images/6bb09e24-1c76-499e-a23a-f638b93ac9ca.jpeg"},
   {id:"dualtron-thunder-2",brand:"Dualtron",name:"Dualtron Thunder 2",price:2500,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"HAUTE PERFORMANCE",image:"images/e88357a1-4ca8-4b4b-b69d-6265587f728b.jpeg"},
-  {id:"dualtron-thunder-3",brand:"Dualtron",name:"Dualtron Thunder 3 2026",price:2889,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:"images/dualtron-thunder-3.jpg"},
-  {id:"dualtron-x-limited",brand:"Dualtron",name:"Dualtron X Limited 2026",price:4590,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"EXTRÊME",image:"images/dualtron-x-limited.jpg"},
+  {id:"dualtron-thunder-3",brand:"Dualtron",name:"Dualtron Thunder 3 2026",price:2550,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:"images/dadd4eba-c57a-4847-a3b1-4f0d37e58fc0.jpeg"},
+  {id:"dualtron-x-limited",brand:"Dualtron",name:"Dualtron X Limited 2026",price:4590,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"EXTRÊME",image:"images/dualtron-x-limited"},
   {id:"dualtron-storm-limited",brand:"Dualtron",name:"Dualtron New Storm Limited",price:null,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"LIMITED",image:"images/dualtron-storm-limited.jpg"},
   {id:"dualtron-sonic-alien",brand:"Dualtron",name:"Dualtron Sonic Alien",price:null,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:"images/dualtron-sonic-alien.jpg"},
 
