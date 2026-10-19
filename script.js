@@ -13,7 +13,7 @@ const SHOP = {
  */
 const PRODUCTS = [
   // AUSOM
-  {id:"ausom-k20",brand:"AUSOM",name:"Ausom K20",price:439,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"VILLE",image:"images/ausom-k20.jpg"},
+  {id:"ausom-k20",brand:"AUSOM",name:"Ausom K20",price:439,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"VILLE",image:"images/cc370809-5fd5-4bc0-a33b-1b08ba5017dd.jpeg"},
   {id:"ausom-k20-pro",brand:"AUSOM",name:"Ausom K20 Pro",price:499,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PRO",image:"images/ausom-k20-pro.jpg"},
   {id:"ausom-k20-pro-dual",brand:"AUSOM",name:"Ausom K20 Pro Dual",price:599,power:"Double moteur",battery:"Selon version",range:"Selon version",badge:"DOUBLE MOTEUR",image:"images/ausom-k20-pro-dual.jpg"},
   {id:"ausom-gosoul-2",brand:"AUSOM",name:"Ausom Gosoul 2",price:499,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"",image:"images/ausom-gosoul-2.jpg"},
