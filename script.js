@@ -26,7 +26,7 @@ const PRODUCTS = [
   {id:"ausom-f1-max",brand:"AUSOM",name:"Ausom F1 Max",price:800,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:"images/6304a642-5d5c-4bdf-b351-6614e52c1b87.jpeg"},
 
   // DUALTRON
-  {id:"dualtron-aminia",brand:"Dualtron",name:"Dualtron Aminia 2026",price:749,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"COMPACTE",image:"images/dualtron-aminia.jpg"},
+  {id:"dualtron-aminia",brand:"Dualtron",name:"Dualtron Aminia 2026",price:649,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"COMPACTE",image:"images/8f612cdc-8269-44c5-a906-5e76daa446ad.jpeg"},
   {id:"dualtron-togo",brand:"Dualtron",name:"Dualtron Togo",price:599,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"VILLE",image:"images/dualtron-togo.jpg"},
   {id:"dualtron-pop",brand:"Dualtron",name:"Dualtron POP",price:799,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"",image:"images/dualtron-pop.jpg"},
   {id:"dualtron-victor",brand:"Dualtron",name:"Dualtron Victor 2026",price:1550,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"SPORT",image:"images/dualtron-victor.jpg"},
