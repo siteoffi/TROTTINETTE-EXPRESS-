@@ -13,17 +13,17 @@ const SHOP = {
  */
 const PRODUCTS = [
   // AUSOM
-  {id:"ausom-k20",brand:"AUSOM",name:"Ausom K20",price:439,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"VILLE",image:"images/cc370809-5fd5-4bc0-a33b-1b08ba5017dd.jpeg"},
-  {id:"ausom-k20-pro",brand:"AUSOM",name:"Ausom K20 Pro",price:499,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PRO",image:"images/e7fed6e6-bdef-44c9-8acc-69ef101f376e.jpeg"},
-  {id:"ausom-k20-pro-dual",brand:"AUSOM",name:"Ausom K20 Pro Dual",price:599,power:"Double moteur",battery:"Selon version",range:"Selon version",badge:"DOUBLE MOTEUR",image:"images/b0004e09-7b7b-4d73-9a91-d8d9034f7de3.jpeg"},
-  {id:"ausom-gosoul-2",brand:"AUSOM",name:"Ausom Gosoul 2",price:499,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"",image:"images/efa3d4eb-77ad-4ae9-834c-a03d24fd8414.jpeg"},
-  {id:"ausom-gosoul-2-pro",brand:"AUSOM",name:"Ausom Gosoul 2 Pro",price:549,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PRO",image:"images/efa3d4eb-77ad-4ae9-834c-a03d24fd8414.jpeg"},
-  {id:"ausom-gosoul-2-dual",brand:"AUSOM",name:"Ausom Gosoul 2 Dual",price:599,power:"Double moteur",battery:"Selon version",range:"Selon version",badge:"DOUBLE MOTEUR",image:"images/efa3d4eb-77ad-4ae9-834c-a03d24fd8414.jpeg"},
-  {id:"ausom-gosoul-2-pro-dual",brand:"AUSOM",name:"Ausom Gosoul 2 Pro Dual",price:699,power:"Double moteur",battery:"Selon version",range:"Selon version",badge:"DOUBLE MOTEUR",image:"images/60e23d7c-3b99-4112-89bf-90b882dabb1c.jpeg"},
-  {id:"ausom-dt2-pro",brand:"AUSOM",name:"Ausom DT2 Pro",price:899,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"TOUT-TERRAIN",image:"images/b8e76865-6e82-4530-8670-d36a800c6f21.jpeg"},
-  {id:"ausom-l2-max-dual",brand:"AUSOM",name:"Ausom L2 Max Dual",price:749,power:"Double moteur",battery:"Selon version",range:"Selon version",badge:"DOUBLE MOTEUR",image:"images/d5d3fcfe-95b9-471d-9d67-8a67e3448251.jpeg"},
-  {id:"ausom-l1-abe",brand:"AUSOM",name:"Ausom L1 ABE",price:549,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"VERSION ABE",image:"images/0a19faae-3cc1-4c6f-9eab-669023048836.jpeg"},
-  {id:"ausom-f1-max",brand:"AUSOM",name:"Ausom F1 Max",price:1299,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:"images/6304a642-5d5c-4bdf-b351-6614e52c1b87.jpeg"},
+  {id:"ausom-k20",brand:"AUSOM",name:"Ausom K20",price:300,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"VILLE",image:"images/cc370809-5fd5-4bc0-a33b-1b08ba5017dd.jpeg"},
+  {id:"ausom-k20-pro",brand:"AUSOM",name:"Ausom K20 Pro",price:399,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PRO",image:"images/e7fed6e6-bdef-44c9-8acc-69ef101f376e.jpeg"},
+  {id:"ausom-k20-pro-dual",brand:"AUSOM",name:"Ausom K20 Pro Dual",price:499,power:"Double moteur",battery:"Selon version",range:"Selon version",badge:"DOUBLE MOTEUR",image:"images/b0004e09-7b7b-4d73-9a91-d8d9034f7de3.jpeg"},
+  {id:"ausom-gosoul-2",brand:"AUSOM",name:"Ausom Gosoul 2",price:399,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"",image:"images/efa3d4eb-77ad-4ae9-834c-a03d24fd8414.jpeg"},
+  {id:"ausom-gosoul-2-pro",brand:"AUSOM",name:"Ausom Gosoul 2 Pro",price:449,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PRO",image:"images/efa3d4eb-77ad-4ae9-834c-a03d24fd8414.jpeg"},
+  {id:"ausom-gosoul-2-dual",brand:"AUSOM",name:"Ausom Gosoul 2 Dual",price:480,power:"Double moteur",battery:"Selon version",range:"Selon version",badge:"DOUBLE MOTEUR",image:"images/efa3d4eb-77ad-4ae9-834c-a03d24fd8414.jpeg"},
+  {id:"ausom-gosoul-2-pro-dual",brand:"AUSOM",name:"Ausom Gosoul 2 Pro Dual",price:500,power:"Double moteur",battery:"Selon version",range:"Selon version",badge:"DOUBLE MOTEUR",image:"images/60e23d7c-3b99-4112-89bf-90b882dabb1c.jpeg"},
+  {id:"ausom-dt2-pro",brand:"AUSOM",name:"Ausom DT2 Pro",price:700,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"TOUT-TERRAIN",image:"images/b8e76865-6e82-4530-8670-d36a800c6f21.jpeg"},
+  {id:"ausom-l2-max-dual",brand:"AUSOM",name:"Ausom L2 Max Dual",price:600,power:"Double moteur",battery:"Selon version",range:"Selon version",badge:"DOUBLE MOTEUR",image:"images/d5d3fcfe-95b9-471d-9d67-8a67e3448251.jpeg"},
+  {id:"ausom-l1-abe",brand:"AUSOM",name:"Ausom L1 ABE",price:420,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"VERSION ABE",image:"images/0a19faae-3cc1-4c6f-9eab-669023048836.jpeg"},
+  {id:"ausom-f1-max",brand:"AUSOM",name:"Ausom F1 Max",price:800,power:"Selon version",battery:"Selon version",range:"Selon version",badge:"PREMIUM",image:"images/6304a642-5d5c-4bdf-b351-6614e52c1b87.jpeg"},
 
   // DUALTRON
   {id:"dualtron-aminia",brand:"Dualtron",name:"Dualtron Aminia 2026",price:749,priceNote:"À partir de",power:"Selon version",battery:"Selon version",range:"Selon version",badge:"COMPACTE",image:"images/dualtron-aminia.jpg"},
