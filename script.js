@@ -2,7 +2,7 @@
 "use strict";
 
 const SHOP = {
-  whatsapp: "33688489721",
+  whatsapp: "33674029600",
   email: "achattrottinette@gmail.com"
 };
 
